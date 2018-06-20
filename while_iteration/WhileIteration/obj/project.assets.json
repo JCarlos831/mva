@@ -674,13 +674,13 @@
       "projectName": "WhileIteration",
       "projectPath": "/Users/JuanCMontoya/Projects/vscode/mva/while_iteration/WhileIteration/WhileIteration.csproj",
       "packagesPath": "/Users/JuanCMontoya/.nuget/packages/",
-      "outputPath": "/Users/JuanCMontoya/Projects/vscode/mva/while_iteration/WhileIteration/obj/",
+      "outputPath": "/Users/JuanCMontoya/Projects/vscode/mva/while_iteration/WhileIteration/obj",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "/Users/JuanCMontoya/.nuget/NuGet/NuGet.Config"
+        "/Users/JuanCMontoya/.config/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.0"
@@ -703,8 +703,9 @@
       "netcoreapp2.0": {
         "dependencies": {
           "Microsoft.NETCore.App": {
+            "suppressParent": "All",
             "target": "Package",
-            "version": "[2.0.0, )",
+            "version": "2.0",
             "autoReferenced": true
           }
         },
